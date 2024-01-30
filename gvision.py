@@ -34,6 +34,7 @@ dataset = [
     {"file_path": "./photos/19.jpg", "label": "Anger"},
     {"file_path": "./photos/20.jpg", "label": "Joy"},
     {"file_path": "./photos/21.jpg", "label": "Surprise"},
+    {"file_path": "./photos/white.jpg", "label": "Not specified"},
 
 
 

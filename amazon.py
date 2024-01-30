@@ -29,6 +29,7 @@ dataset = [
     {"file_path": "./photos/19.jpg", "label": "Angry"},
     {"file_path": "./photos/20.jpg", "label": "Happy"},
     {"file_path": "./photos/21.jpg", "label": "Fear"},
+    {"file_path": "./photos/white.jpg", "label": "Not specified"},
 ]
 
 # Mapping between Rekognition emotions and dataset labels
