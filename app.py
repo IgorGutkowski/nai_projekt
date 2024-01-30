@@ -62,7 +62,7 @@ def analyze_image():
 
         with open(audio_filepath, 'wb') as audio_file:
             audio_file.write(polly_response['AudioStream'].read())
-        
+
         # Construct the unique audio file URL
         audio_url = request.url_root + f'audio/{audio_filename}?t={time.time()}'
 
@@ -71,7 +71,7 @@ def analyze_image():
             return jsonify(emotion="Not Specified", audioUrl=audio_url), 200
         else:
             return jsonify(
-                emotion=primary_emotion, 
+                emotion=primary_emotion,
                 audioUrl=audio_url,
                 boundingBox=primary_face['BoundingBox']
             ), 200
