@@ -1,5 +1,5 @@
 import React from 'react';
-import CameraCapture from './CameraCapture'; // Assuming CameraCapture is in a file named CameraCapture.js
+import CameraCapture from './CameraCapture'; 
 
 function App() {
   return (
